@@ -96,7 +96,6 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
 ```
 --->
 
@@ -172,8 +171,6 @@ I would like to thank Microverse for providing me with the necessary reading mat
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I use this code for study purposes?**
 
