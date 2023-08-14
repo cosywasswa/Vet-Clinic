@@ -30,7 +30,7 @@
 
 # 📖 VET CLINIC <a name="about-project"></a>
 
-**Vet-Clinic** is a Database management system for records of animals. new animals can be inserted and also animal information can easily be retrieved.
+**Vet-Clinic** is a Database management system for records of animals. new animals can be inserted and also animal information can easily be retrieved, altered or updated.
   Data is managed through PostgreSQL Server
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -48,8 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Insert animal data into the database**
-- **Retrieve animal data from the database**
+- **Insert more animal data into the database**
+- **Alter and update table data**
+- **Query animal data from the database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
