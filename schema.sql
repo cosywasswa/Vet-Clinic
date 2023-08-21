@@ -9,5 +9,20 @@ ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id);
 ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owners(id);
 
 CREATE TABLE vets(id INT GENERATED ALWAYS AS IDENTITY,name VARCHAR,age INT, date_of_graduation DATE,PRIMARY KEY(id));
-CREATE TABLE specializations (vet_id INT REFERENCES vets(id), species_id INT REFERENCES species(id), PRIMARY KEY (vet_id, species_id));
-CREATE TABLE visits (animal_id INT REFERENCES animals(id), date_of_the_visit DATE , vet_id INT REFERENCES vets(id));
+CREATE TABLE specializations(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  species_id INT REFERENCES species(id),
+  vet_id INT REFERENCES vets(id),
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE visits(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  animal_id INT REFERENCES animals(id),
+  vet_id INT REFERENCES vets(id),
+  date_of_visit DATE,
+  PRIMARY KEY(id)
+);
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+ CREATE INDEX visit_animal_id_idx ON visits (animal_id);
+  CREATE INDEX owners_email_idx ON owners (email);
