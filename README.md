@@ -30,7 +30,7 @@
 
 # 📖 VET CLINIC <a name="about-project"></a>
 
-**Vet-Clinic** is a Database management system for records of animals, owners and animal species. new animals can be inserted and also animal information can easily be retrieved using join tables, altered or updated.
+**Vet-Clinic** is a Database management system for records of animals, visits, owners and animal species. new animals can be inserted and also animal information can easily be retrieved using join tables, altered or updated with improved execution time of queries by creating idexes on visits and owners tables.
   Data is managed through PostgreSQL Server
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -53,6 +53,7 @@
 - **Alter and update table data**
 - **Query animal data from the database**
 - **add Join tables**
+- **table indexing**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,13 +129,19 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/cosywasswa)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/cosmas-wasswa-931a2761/)
 
+👤 **Andry Narson**
+
+- GitHub: [@rbd3](https://github.com/rbd3)
+- Twitter: [@Narson321](https://twitter.com/@Narson321)
+- LinkedIn: [@Andry Narson Rabedesana](https://linkedin.com/in/andry-rabedesana)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **database performance audit**
+
 - [ ] **add database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -163,7 +170,7 @@ If you like this project, please leave a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for providing me with the necessary reading materials that have aided me during project development.
+We would like to thank Microverse for providing us with the necessary reading materials that have aided us during project development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +184,7 @@ I would like to thank Microverse for providing me with the necessary reading mat
 
 - **Can I contribute to this project?**
 
-  - Contact me and I'll add you as a contributor.
+  - Contact us and I'll add you as a contributor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
