@@ -53,6 +53,7 @@
 - **table indexing**
 - **add a schema diagram**
 - **database based on schema diagram**
+- **Join tables from many-to-many relationships for clinic database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
