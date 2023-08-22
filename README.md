@@ -51,7 +51,7 @@
 - **Query animal data from the database**
 - **add Join tables**
 - **table indexing**
-- **add schema diagram**
+- **add a schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
