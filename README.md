@@ -52,6 +52,7 @@
 - **add Join tables**
 - **table indexing**
 - **add a schema diagram**
+- **database based on schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,8 +140,6 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Create database based on schema**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
